@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 #header-info {
     list-style-type: none;
@@ -18,7 +23,7 @@ body {
     position: relative; left:20px;
 }
 main {
-    position: relative; left:525px; top:50px;
+    position: relative; left:540px; top:100px;
 } 
 .search {
     position: relative; right: 830px; top:110px;
@@ -35,11 +40,14 @@ main {
 }
 #footer {
     list-style-type: none;
-    position: relative; top:300px;
-    padding: 8px;
-    margin-bottom: 18px;
+    position: relative; bottom:-350px;
+    padding: 24px;
     font-size: 15px;
     line-height: 1.5;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(190, 190, 190) ;
+    background-color: rgb(240, 236, 236);
 }
 #googlesearch {
     position: relative; left: -400px;
@@ -53,23 +61,52 @@ main {
 }
 #arg {
     background-color: rgb(240, 236, 236);
-    padding: 15px 20px;
-    height: 100%;
+    padding: 12px 35px;
     display: flex;
-}
-#left-foot {
+    position: relative; top: 350px;
+    margin: 0px;
+    border-style: solid;
+    border-color:rgb(211, 209, 209);
+    border-width: 1px;
     background-color: rgb(240, 236, 236);
-    float:left;
-    position: relative; bottom: 10px;
-    padding: 15px 20px;
-    height: 100%;
-    display: flex;
 }
-#right-foot {
+#aboutgoogle {
+    float: left;
+    position: relative; left: 25px; bottom: 10px;
     background-color: rgb(240, 236, 236);
-    float:right;
-    position: relative; bottom: 10px;
-    padding: 15px 20px;
-    height: 100%;
-    display: flex;
+}
+#publicidad {
+    float: left;
+    position: relative; left: 50px; bottom: 10px;
+    background-color: rgb(240, 236, 236);
+}
+#negocios {
+    float: left;
+    position: relative; left: 75px; bottom: 10px;
+    background-color: rgb(240, 236, 236);
+
+}
+#how {
+    float: left;
+    position: relative; left: 100px; bottom: 10px;
+    background-color: rgb(240, 236, 236);
+}
+#privacidad {
+    float: right;
+    position: relative; right: 250px; bottom: 10px;
+    background-color: rgb(240, 236, 236);
+}
+#condiciones {
+    float: right;
+    position: relative; right: 70px; bottom: 10px;
+    background-color: rgb(240, 236, 236);
+}
+#preferencias {
+    float: right;
+    position: relative; right: -120px; bottom: 10px;
+
+}
+#footfoot {
+    background-color:rgb(190, 190, 190);
+    position: relative; bottom: 50px;
 }
