@@ -3,4 +3,3 @@
 
 Mi primer proyecto de Front-End!
 
-Realizado segun lo requerido en: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css
